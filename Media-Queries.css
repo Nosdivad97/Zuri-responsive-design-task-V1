@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1800px) {
+  div.hero-background-pos {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  input[type='text'] {
+    width: 45%;
+    margin-left: 0;
+  }
+
+  input[type='email'] {
+    width: 45%;
+    margin-right: 0;
+  }
+
+  textarea {
+    width: 92%;
+  }
+
+  div.background {
+    overflow: hidden;
+    padding-bottom: 40px;
+  }
+
+  div.nav-bar {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  div.footer-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type='text'] {
+    width: 92%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  input[type='email'] {
+    width: 92%;
+    margin-right: 0;
+  }
+
+  textarea {
+    width: 92%;
+  }
+
+  div.hero-background {
+    padding: 6rem 2rem;
+  }
+
+  div.background {
+    overflow: hidden;
+    padding-bottom: 40px;
+  }
+
+  div.nav-bar {
+    padding: 1rem 2rem;
+  }
+
+  div.snapshot-box-content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  div.hero-section {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  div.nav-bar {
+    flex-direction: column;
+  }
+
+  div.logo {
+    margin-bottom: 1rem;
+  }
+}
